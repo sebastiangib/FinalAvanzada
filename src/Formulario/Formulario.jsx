@@ -1,3 +1,5 @@
+import './Formulario.css'
+
 export function Formulario() {
   return (
     <>
@@ -51,6 +53,7 @@ export function Formulario() {
               <input type="date" className="form-control"/>
             </div>
           </div>
+          <button type="button" class="btn btn-light">Reservar</button>
         </div>
         <div className="row"></div>
       </form>

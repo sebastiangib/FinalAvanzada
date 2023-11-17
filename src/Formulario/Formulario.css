@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+form{
+    width: 35%;
+}
+
+button{
+    width: 35%;
+}
+
+label{
+    font-family: 'Quintessential', serif;
+}
