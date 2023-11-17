@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './Menu.css'
 
 export function Menu(){
@@ -5,16 +6,17 @@ export function Menu(){
         <>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
+  <Link className="nav-link" to="/">
   <a className="navbar-brand menu" href="#">
       <img src="../../src/assets/icono.png"  width="40" height="30" className="d-inline-block align-text-top"/>
     </a>
-    <a className="navbar-brand menu" href="#">Hotel's Polar</a>
+    <a className="navbar-brand menu" href="#">Hotel's Polar</a></Link>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-        <a className="nav-link" href="#">Habitaciones</a>
-        <a className="nav-link" href="#">Reservas</a>
-        <a className="nav-link">Contactanos</a>
+      <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
+      <li className="nav-item"><Link className="nav-link" to="/habitaciones">Habitaciones</Link></li>
+      <li className="nav-item"><Link className="nav-link" to="/reservas">Reservar</Link></li>
+      <li className="nav-item"><Link className="nav-link" to="/contacto">Contactanos</Link></li>
       </div>
     </div>
   </div>
