@@ -1,5 +1,5 @@
 import './Home.css'
-import { Carreta } from '../carreta/Carreta'
+import { Carreta } from '../Carreta/Carreta'
 
 export function Home(){
     return(

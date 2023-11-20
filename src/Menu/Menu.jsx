@@ -4,8 +4,8 @@ import './Menu.css'
 export function Menu(){
     return(
         <>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
   <Link className="nav-link" to="/">
   <a className="navbar-brand menu" href="#">
       <img src="../../src/assets/icono.png"  width="40" height="30" className="d-inline-block align-text-top"/>

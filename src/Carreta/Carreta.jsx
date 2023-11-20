@@ -6,12 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
-import "swiper/css/effect-cube";
-import "swiper/css/pagination";
 
 // import required modules
 import { EffectCards } from "swiper/modules";
-import { EffectCube, Pagination } from "swiper/modules";
 
 export function Carreta() {
   return (
@@ -51,7 +48,6 @@ export function Carreta() {
               modules={[EffectCards]}
               className="mySwiper"
             >
-              
               <SwiperSlide>
                 <img
                   src="../../src/assets/iglu4.jpg"
@@ -114,70 +110,141 @@ export function Carreta() {
               el interior acoge a los huéspedes con suaves edredones,
               iluminación suave y vistas panorámicas que muestran la
               majestuosidad del paisaje nevado. <br /> <br />
-              El "Hotel's Polar" se
-              enorgullece de su compromiso con la sostenibilidad, utilizando
-              tecnologías innovadoras para garantizar una huella ambiental
-              mínima. Los iglús están construidos con técnicas respetuosas con
-              el medio ambiente, integrando la arquitectura tradicional con
-              sistemas de energía renovable y prácticas eco-friendly que
-              preservan la belleza natural que los rodea.
+              El "Hotel's Polar" se enorgullece de su compromiso con la
+              sostenibilidad, utilizando tecnologías innovadoras para garantizar
+              una huella ambiental mínima. Los iglús están construidos con
+              técnicas respetuosas con el medio ambiente, integrando la
+              arquitectura tradicional con sistemas de energía renovable y
+              prácticas eco-friendly que preservan la belleza natural que los
+              rodea.
             </p>
           </div>
         </div>
       </div>
-      <br /> 
+      <br />
       <div className="container">
-      <hr />
-      <div className="row">
-        <div className="col-12 col-md-6">
-                <h1 className="title">ACTIVIDADES INVERNALES</h1>
-                <img
-                  src="../../src/assets/excursionmotonieve.webp"
-                  className="img-fluid w-100 wow animate__animated animate__slideInDown"
-                />
-                <br/><br />
-                <p>
-                Además de sumergirse en la cálida comodidad de los iglús, los huéspedes del "Hotel's Polar" tienen a su alcance un abanico cautivador de actividades diseñadas para explorar y deleitarse con la maravilla invernal. Desde aventuras que aceleran el pulso hasta momentos de serena contemplación, cada día en este paraíso nevado está repleto de emocionantes oportunidades.
-                  <br /><br />
-                  Las rutas de senderismo guiadas a través de los bosques nevados ofrecen la oportunidad de descubrir la vida silvestre que se adapta al frío, mientras que las excursiones en raquetas de nieve invitan a sumergirse en la quietud y la belleza natural de los alrededores. Los entusiastas del esquí encontrarán su paraíso en las cercanas pistas, donde la nieve fresca y las vistas impresionantes se combinan para ofrecer una experiencia única.
-                </p>
-              </div>
-              <div className="col-12 col-md-6">
-                <p>
-                Para aquellos en busca de una dosis de adrenalina, las emocionantes carreras en trineo de perros liderados por vigorosos huskies siberianos o las vertiginosas travesías en motonieve a través de paisajes helados proporcionan una inolvidable aventura polar. Mientras tanto, los amantes de la pesca pueden probar suerte en los lagos congelados, esperando pacientemente bajo el sol reflejado en el hielo en busca de la captura perfecta.
-                <br /><br />
-                Las noches en el "Hotel's Polar" son una invitación a la relajación y la maravilla celestial. Las aguas termales al aire libre ofrecen un remanso de calidez y confort bajo el brillante lienzo estrellado del cielo ártico, donde los huéspedes pueden sumergirse y dejar que las tensiones se desvanezcan mientras observan las estrellas titilantes sobre ellos.
-                <br /><br />
-                En este lugar donde la belleza natural se fusiona con el lujo y la aventura, cada experiencia está diseñada para cautivar, inspirar y conectar a los visitantes con la asombrosa grandeza del invierno. En el "Hotel's Polar", cada momento es una oportunidad para crear recuerdos inolvidables en medio de un paisaje que parece sacado de un cuento de hadas invernal va más allá de la aventura diurna. Las noches son una sinfonía de tranquilidad y asombro, donde el manto estrellado se convierte en el telón de fondo de una de las mayores maravillas naturales: la aurora boreal,  Los huéspedes tienen el privilegio de presenciar este baile de luces en el firmamento desde la calidez de sus iglús.
-                </p>
-                <img
-                  src="../../src/assets/auroraboreal.jpg"
-                  className="w-100 img-fluid wow animate__animated animate__slideInUp"
-                />
-              </div>
-            </div>
+        <hr />
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <h1 className="title">ACTIVIDADES INVERNALES</h1>
+            <img
+              src="../../src/assets/excursionmotonieve.webp"
+              className="img-fluid w-100 wow animate__animated animate__slideInDown"
+            />
+            <br />
+            <br />
+            <p>
+              Además de sumergirse en la cálida comodidad de los iglús, los
+              huéspedes del "Hotel's Polar" tienen a su alcance un abanico
+              cautivador de actividades diseñadas para explorar y deleitarse con
+              la maravilla invernal. Desde aventuras que aceleran el pulso hasta
+              momentos de serena contemplación, cada día en este paraíso nevado
+              está repleto de emocionantes oportunidades.
+              <br />
+              <br />
+              Las rutas de senderismo guiadas a través de los bosques nevados
+              ofrecen la oportunidad de descubrir la vida silvestre que se
+              adapta al frío, mientras que las excursiones en raquetas de nieve
+              invitan a sumergirse en la quietud y la belleza natural de los
+              alrededores. Los entusiastas del esquí encontrarán su paraíso en
+              las cercanas pistas, donde la nieve fresca y las vistas
+              impresionantes se combinan para ofrecer una experiencia única.
+            </p>
           </div>
-          <hr />
-      <div className="container">
-      <div className="row">
-        <div className="col-12 col-md-12">
-          <center>
-          <h2>¡Encuéntranos Aquí! <i class="fa-solid fa-location-dot"></i></h2>
-          <hr />
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17725526.671809807!2d0!3d-74.26667751218294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1ses!2sco!4v1700438025637!5m2!1ses!2sco"
-            width="600"
-            height="450"
-            style={{ border: '0' }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps"
-          ></iframe>
-          </center>
+          <div className="col-12 col-md-6">
+            <p>
+              Para aquellos en busca de una dosis de adrenalina, las
+              emocionantes carreras en trineo de perros liderados por vigorosos
+              huskies siberianos o las vertiginosas travesías en motonieve a
+              través de paisajes helados proporcionan una inolvidable aventura
+              polar. Mientras tanto, los amantes de la pesca pueden probar
+              suerte en los lagos congelados, esperando pacientemente bajo el
+              sol reflejado en el hielo en busca de la captura perfecta.
+              <br />
+              <br />
+              Las noches en el "Hotel's Polar" son una invitación a la
+              relajación y la maravilla celestial. Las aguas termales al aire
+              libre ofrecen un remanso de calidez y confort bajo el brillante
+              lienzo estrellado del cielo ártico, donde los huéspedes pueden
+              sumergirse y dejar que las tensiones se desvanezcan mientras
+              observan las estrellas titilantes sobre ellos.
+              <br />
+              <br />
+              En este lugar donde la belleza natural se fusiona con el lujo y la
+              aventura, cada experiencia está diseñada para cautivar, inspirar y
+              conectar a los visitantes con la asombrosa grandeza del invierno.
+              En el "Hotel's Polar", cada momento es una oportunidad para crear
+              recuerdos inolvidables en medio de un paisaje que parece sacado de
+              un cuento de hadas invernal va más allá de la aventura diurna. Las
+              noches son una sinfonía de tranquilidad y asombro, donde el manto
+              estrellado se convierte en el telón de fondo de una de las mayores
+              maravillas naturales: la aurora boreal, Los huéspedes tienen el
+              privilegio de presenciar este baile de luces en el firmamento
+              desde la calidez de sus iglús.
+            </p>
+            <img
+              src="../../src/assets/auroraboreal.jpg"
+              className="w-100 img-fluid wow animate__animated animate__slideInUp"
+            />
+          </div>
         </div>
       </div>
+      <br />
+      <div className="container">
+        <hr />
+          <div id="carouselExampleInterval" className="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-bs-interval="2500">
+      <img src="../../src/assets/carruselHome1.png" className="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <a href="habitaciones" className="buttontext">
+  <button type="button" className="btn btn-light">¡EXPLORAR AHORA!</button>
+</a>
+      <br /><br />
+        <p>Explorar las habitaciones de hotel es como abrir páginas desconocidas de un libro; <br />
+        cada puerta revela un mundo íntimo y único.</p>
+      </div>
     </div>
+    <div class="carousel-item"  data-bs-interval="2500">
+      <img src="../../src/assets/carruselHome2.png" className="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item"  data-bs-interval="2500">
+      <img src="../../src/assets/carruselHome3.png" className="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+      <div className="container">
+        <hr />
+        <div className="row">
+          <div className="col-12 col-md-12">
+            <center>
+              <h2 className="title">
+                ¡ENCUENTRANOS AQUI! <i className="fa-solid fa-location-dot"></i>
+              </h2>
+              <hr />
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17725526.671809807!2d0!3d-74.26667751218294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1ses!2sco!4v1700438025637!5m2!1ses!2sco"
+                width="600"
+                height="450"
+                style={{ border: "0" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps"
+              ></iframe>
+            </center>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
