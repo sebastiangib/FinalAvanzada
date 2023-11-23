@@ -76,25 +76,25 @@ export function Carreta() {
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="../../src/assets/iglu9.jpg"
+                  src="../../src/assets/iglu1.jpg"
+                  className="w-100 h-100 img-fluid"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="../../src/assets/iglu3.jpg"
+                  className="w-100 h-100 img-fluid"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="../../src/assets/iglu5.jpg"
                   className="w-100 h-100 img-fluid"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   src="../../src/assets/iglu6.jpg"
-                  className="w-100 h-100 img-fluid"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="../../src/assets/iglu7.jpg"
-                  className="w-100 h-100 img-fluid"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="../../src/assets/iglu10.jpg"
                   className="w-100 h-100 img-fluid"
                 />
               </SwiperSlide>

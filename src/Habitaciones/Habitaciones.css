@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+
+#app {
+    height: 100vh; /* Usar toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos específicos para el Swiper en Habitaciones */
+  .habitaciones-container {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    height: 100%; /* Ocupar todo el alto disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mySwiperr {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .habitaciones-container .swiper-slide {
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    height: 100%; /* Ocupar todo el alto del contenedor */
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.tituloHabitaciones{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.textoHabitacion{
+  font-family: 'Lato', sans-serif;
+}
+
+hr{
+  border: solid grey;
+}
+
+.titleHabitacion{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 45px;
+  text-align: center;
+}

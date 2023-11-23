@@ -3,7 +3,7 @@ import "./Formulario.css";
 export function Formulario() {
   return (
     <>
-      <div className="fondoReservar">
+      <div className="fondoReservar" id="reservas">
         <div className="row">
           <div className="col-12 col-md-4jmn">
             <h3 className="titulo">¡Reserva con Nosotros!</h3>

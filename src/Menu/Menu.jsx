@@ -16,7 +16,6 @@ export function Menu(){
       <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
       <li className="nav-item"><Link className="nav-link" to="/habitaciones">Habitaciones</Link></li>
       <li className="nav-item"><Link className="nav-link" to="/reservas">Reservar</Link></li>
-      <li className="nav-item"><Link className="nav-link" to="/contacto">Contactanos</Link></li>
       </div>
     </div>
   </div>
